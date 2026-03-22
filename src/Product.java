@@ -1,5 +1,5 @@
 import java.util.Objects;
-
+//класс товара
 public class Product {
     private int id;
     private String name;

@@ -1,3 +1,4 @@
+//main
 public class Main {
     public static void main(String[] args) {
         Product iPhone1 = new Product(123, "iPhone 17", 80_000, "Смартфон");
