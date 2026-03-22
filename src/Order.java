@@ -9,16 +9,18 @@ public class Order {
         this.customer = customer;
         this.basket = basket;
     }
+
     @Override
-    public String toString(){
+    public String toString() {
         return "Заказчик: " + this.customer + " | " + "Корзина: " + Arrays.toString(this.basket);
     }
+
     @Override
-    public boolean equals(Object o){
-        if (this == o){
+    public boolean equals(Object o) {
+        if (this == o) {
             return true;
         }
-        if (o == null || getClass() != o.getClass()){
+        if (o == null || getClass() != o.getClass()) {
             return false;
         }
         Order order = (Order) o;
